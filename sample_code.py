@@ -1,6 +1,6 @@
 # Try changing the names here
 names = ["Ryan", "Amy", "Varsha"]
-# and / or the ages here
+# And the ages here
 ages = [24, 6, 10]
 
 
