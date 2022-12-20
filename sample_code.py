@@ -1,7 +1,7 @@
 # Try changing the names here
-names = ["Ryan", "Amy", "Varsha"]
+names = ["Ryan", "Anna", "Varsha"]
 # And the ages here
-ages = [24, 6, 10]
+ages = [24, 6, 30]
 
 
 res = dict(zip(names, ages))
