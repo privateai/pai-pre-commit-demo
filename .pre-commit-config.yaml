@@ -1,13 +1,12 @@
 repos:
-  - repo: https://github.com/ketaki99/test-pre-commit
-    rev: test.6
+  - repo: https://github.com/privateai/pai-pre-commit-hook.git
+    rev: v1.1-beta
     hooks:
       - id: pii-check
-        entry: pii_check
         args:
           [
             "--url",
-            "https://api.private-ai.com/deid/v3/process_text",
+            "https://app-deid-staging-east001.azurewebsites.net/v3/process_text",
             "--env-file-path",
             ".env",
           ]
