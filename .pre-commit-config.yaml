@@ -3,11 +3,5 @@ repos:
     rev: v1.1-beta
     hooks:
       - id: pii-check
-        args:
-          [
-            "--url",
-            "https://app-deid-staging-east001.azurewebsites.net/v3/process_text",
-            "--env-file-path",
-            ".env",
-          ]
+        args: ["--url", "URL", "--env-file-path", ".env"]
         verbose: true
