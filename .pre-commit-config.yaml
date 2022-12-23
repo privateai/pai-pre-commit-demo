@@ -3,5 +3,11 @@ repos:
     rev: v1.1-beta
     hooks:
       - id: pii-check
-        args: ["--url", "URL", "--env-file-path", ".env"]
+        args:
+          [
+            "--url",
+            "URL-OF-PAI-SERVER/v3/process_text",
+            "--env-file-path",
+            ".env",
+          ]
         verbose: true
