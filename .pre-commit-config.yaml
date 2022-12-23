@@ -6,7 +6,7 @@ repos:
         args:
           [
             "--url",
-            "https://app-deid-staging-east001.azurewebsites.net/v3/process_text",
+            "URL-OF-PAI-SERVER/v3/process_text",
             "--env-file-path",
             ".env",
           ]
